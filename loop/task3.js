@@ -23,3 +23,5 @@ const fruits = ['apple', 'banana', 'orange', 'kiwi'];
 const foundFruit = fruits.find(fruit => fruit === 'orange');
 // Output: 'orange'
 
+
+
