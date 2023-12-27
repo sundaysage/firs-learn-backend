@@ -7,12 +7,8 @@ const ingredients = ['bread','cheese','tomato','rice'];
 const sliedIngredients = ingredients.map(item => `sliced ${item}`);
 
 
-
-
-
 ///array.foreach
 // this does not create a new  array or return a new array like array.map 
 // it just iterate over the array and apply the given function 
- 
 const cutingredient =['cutbeans','cutbread','cutrice'];
 cutingredient.forEach(item =>  console.log(`add ${item}`))

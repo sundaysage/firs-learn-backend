@@ -1,7 +1,4 @@
 // Differentiate between for-in and for-of
-
-
-
 //forin is used for iterating over object property and it returns the keys or indexs 
 
 const myObj ={
