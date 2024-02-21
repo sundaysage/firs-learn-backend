@@ -21,3 +21,18 @@ p.catch(error => {
 //while
 //recject method used when every the promise fail 
 //to compelect it also display the error message for the the system
+
+
+const delay= (seconds) => {
+    return new Promise(resolve => {
+      setTimeout(() => {
+        resolve(); 
+      }, seconds * 1000);
+    });
+  }
+  
+  delay(5) 
+    .then(() => {
+      console.log('Promise resolved after 5 seconds');
+    });
+  
