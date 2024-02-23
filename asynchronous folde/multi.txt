@@ -1,0 +1,5 @@
+multi threading in javascript  can be said  to be
+ the processing of   making your  program more efficient because 
+ tasks that don't depend on each other the all can happen at the same 
+ time rather than waiting for one to finish before starting the next
+

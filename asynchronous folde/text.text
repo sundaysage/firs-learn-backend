@@ -1,0 +1,6 @@
+Asynchronous execution is like traffic on a multi-lane road, where tasks can progress independently, allowing for potentially faster and more efficient processing.
+
+while
+
+
+synchronous execution is like waiting in a single-file line, where each task must wait for the previous one to finish
