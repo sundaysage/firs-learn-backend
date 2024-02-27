@@ -24,15 +24,19 @@ console.log("Breakfast is ready!");
 
 console.log("Start making breakfast");
 
+
 function makeCoffee() {
   setTimeout(function() {
     console.log("Making coffee...");
-  }, 8000); 
+    console.log('coffee is ready')
+  },1000); 
 }
+
+console.log("we have started frying the egg");
 
 function fryEggs() {
   setTimeout(function(){
-    console.log("Frying eggs... while wae wait on coffee to be ready");
+    console.log("egg is ready");
 
   },3000
 
@@ -42,4 +46,6 @@ function fryEggs() {
 makeCoffee();
 fryEggs();
 
-console.log("Breakfast is almost ready!");
+setTimeout(function(){
+  console.log("Breakfast is  ready!");
+},4000)
