@@ -35,12 +35,13 @@ function makeCoffee() {
 console.log("we have started frying the egg");
 
 function fryEggs() {
+  console.log('1')
   setTimeout(function(){
     console.log("egg is ready");
 
   },3000
-
   )
+  console.log("2")
 }
 
 makeCoffee();
