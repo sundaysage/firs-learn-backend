@@ -32,7 +32,7 @@ function makeCoffee() {
 
 function fryEggs() {
   setTimeout(function(){
-    console.log("Frying eggs...");
+    console.log("Frying eggs... while wae wait on coffee to be ready");
 
   },3000
 
