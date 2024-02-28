@@ -34,7 +34,7 @@ function makeCoffee() {
 
 console.log("we have started frying the egg");
 
-uufunction fryEggs() {
+function fryEggs() {
   console.log('1');
   setTimeout(function(){
     console.log("egg is ready");
