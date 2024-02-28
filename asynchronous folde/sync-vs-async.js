@@ -11,6 +11,7 @@ printNumberSyncronous();
 // asyncronous
 function delay(seconds) {
   return new Promise((resolve, reject) => {
+    // javascripts calculates time in milleseconds so multiply the seconds by 1000 to convert to milliseconds
     setTimeout(() => resolve("delay completed"), seconds * 1000);
   });
 }
