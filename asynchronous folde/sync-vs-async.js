@@ -27,3 +27,14 @@ async function printNumbersAsyncronously() {
 
 console.log("asyncronous running");
 printNumbersAsyncronously();
+
+function buy() {
+  alert('u just bought some thing')
+
+  let cl =4+ 7;
+  console.log(cl);
+
+  
+}
+
+buy()
